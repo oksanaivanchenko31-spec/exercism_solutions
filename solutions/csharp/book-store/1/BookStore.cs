@@ -6,12 +6,12 @@ public static class BookStore
 {
     private static readonly decimal[] GroupPrice =
     {
-        0m,     // 0 книг
-        8m,     // 1 книга:  без знижки
-        15.2m,  // 2 книги:  5%
-        21.6m,  // 3 книги:  10%
-        25.6m,  // 4 книги:  20%
-        30m     // 5 книг:   25%
+        0m,
+        8m,   
+        15.2m,
+        21.6m, 
+        25.6m,  
+        30m     
     };
 
     public static decimal Total(IEnumerable<int> books)
